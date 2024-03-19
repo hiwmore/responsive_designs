@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Sans+3&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Sans+3&display=swap");
+.header{
+    height:8vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+.header__logo{
+    width:90px;
+    height:36px;
+}
+.fa-ellipsis{
+    transition-duration:0.4s;
+    color:#fff
+}
+.fa-ellipsis:hover{
+    color:#d30000
+}
+@media screen and (min-width:320px){
+}
+.nav__list{
+    list-style:none
+}
+.nav__link{
+    display:none
+}
+@media screen and (min-width:768px){
+}
+.header{
+    height:15vh;
+    margin-bottom:100px
+}
+.nav{
+    min-width:303px;
+    display:flex
+}
